@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import '../assets/css/styles.css';
 import Countries from './Countries';
 import CountryDetail from './CountryDetail';
-import CountryFilters from './CountryFilters';
-import Footer from './Footer';
+import CountryFilters from './CountryFilters;
 import Header from './Header';
 
 const App = () => {
@@ -75,7 +74,7 @@ const App = () => {
             <CountryDetail countries={countries} />
           </Route>
         </Switch>
-        <Footer />
+        
       </Router>
     </>
   );
